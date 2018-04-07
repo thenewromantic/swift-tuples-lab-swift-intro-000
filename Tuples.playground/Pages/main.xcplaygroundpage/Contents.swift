@@ -17,7 +17,7 @@
 // write your code here
 
 
-
+var person = (name: "Loki", age: 3)
 
 
 
@@ -31,7 +31,7 @@
 
 
 
-
+print("\(person.name) is \(person.age) years old")
 
 
 
@@ -43,7 +43,7 @@
 
 
 
-
+person.age = 4
 
 
 
@@ -54,7 +54,7 @@
 
 
 
-
+print("Happy \(person.age)th birthday \(person.name)!")
 
 
 
@@ -66,7 +66,7 @@
 
 
 
-
+var someone = (name: "Ava", age: 28)
 
 
 
@@ -80,7 +80,7 @@
 
 
 
-
+print("\(someone.name) is \(someone.age) years old")
 
 /*:
  ### 7. It is `someone`'s birthday! Increment `someone`'s age by one year.
@@ -89,7 +89,7 @@
 
 
 
-
+someone.age = 29
 
 
 
@@ -100,7 +100,7 @@
 
 
 
-
+print("Happy \(someone.age)th birthday, \(someone.name)!")
 
 
 
@@ -112,6 +112,7 @@
 
 
 
+let human = (name: Sara, age: 32)
 
 
 
@@ -122,7 +123,7 @@
  */
 
 
-
+//no because its a constant
 
 
 
